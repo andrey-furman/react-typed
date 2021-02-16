@@ -1,4 +1,4 @@
-# react-typed
+# Bring typing to your react project
 
 
 Install dev dependencies:
