@@ -31,4 +31,13 @@ Add the following parts to package.json:
   "engines": {
     "node": "14.15.4"
   },
+  "rootDir": ".",
+  "roots": [
+    "<rootDir>"
+  ],
+  "moduleNameMapper": {
+    "@vendor": "<rootDir>/vendor",
+    "@vendor/(.*)": "<rootDir>/vendor/$1"
+  }
+
 ```
