@@ -17,5 +17,14 @@
     "noEmit": true,
     "jsx": "react"
   },
-  "include": ["src"]
+    "include": ["src"],
+    "paths": {
+      "@app/utils": [
+        "libs/utils/src"
+      ],
+      "@app/utils/*": [
+        "libs/utils/src/*"
+      ]
+    }
+
 }
